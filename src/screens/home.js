@@ -27,7 +27,7 @@ export default function Home({ navigation }) {
           return (
             <Pressable
               onPress={() => {
-                navigation.navigate("Details");
+                navigation.navigate("Details", { Planet: item });
               }}
               style={styles.item}
             >
