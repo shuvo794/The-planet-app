@@ -8,6 +8,7 @@ import { typography } from "./src/theme/typography";
 import Text from "./src/components/text/text";
 // import home from "./src/screens/home";
 import Home from "./src/screens/home";
+import Details from "./src/screens/details";
 import { NavigationContainer, DarkTheme } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 const Stack = createNativeStackNavigator();
@@ -27,6 +28,7 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Details" component={Details} />
         </Stack.Navigator>
       </NavigationContainer>
       <StatusBar style="light" />
