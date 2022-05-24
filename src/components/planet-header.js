@@ -13,8 +13,9 @@ export default function PlanetHeader() {
 }
 const styles = StyleSheet.create({
   container: {
-    padding: spacing[8],
-    borderBottomWidth: 1,
+    marginTop: spacing[5],
+    padding: spacing[5],
+    borderBottomWidth: 0.2,
     borderBottomColor: colors.white,
   },
 });
